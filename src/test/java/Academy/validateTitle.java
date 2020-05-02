@@ -27,7 +27,9 @@ public class validateTitle extends base{
 		 log.info("Driver is initialized");
 			
 		driver.get(prop.getProperty("url"));
-		 log.info("Navigated to Home page");
+		 //log.info("Navigated to Home page");
+		System.out.println("this is git test");
+		 
 	}
 	@Test
 	
