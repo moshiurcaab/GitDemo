@@ -30,9 +30,26 @@ public class validateTitle extends base{
 		 //log.info("Navigated to Home page");
 		System.out.println("this is git test");
 		System.out.println("this is git test from american zone");
+		System.out.println("this is git test from assian zone branch");//create branch develop
 		
 		 
 	}
+	@BeforeTest
+	public void initialize1() throws IOException
+	{
+	
+		 driver =initializeDriver();
+		 log.info("Driver is initialized");
+			
+		driver.get(prop.getProperty("url"));
+		 //log.info("Navigated to Home page");
+		System.out.println("this is git test");
+		System.out.println("this is git test from american zone");
+		System.out.println("this is git test from assian zone branch");//create branch develop
+		
+		 
+	}
+	
 	@Test
 	
 	public void validateAppTitle() throws IOException
