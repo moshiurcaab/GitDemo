@@ -29,6 +29,8 @@ public class validateTitle extends base{
 		driver.get(prop.getProperty("url"));
 		 //log.info("Navigated to Home page");
 		System.out.println("this is git test");
+		System.out.println("this is git test from american zone");
+		
 		 
 	}
 	@Test
